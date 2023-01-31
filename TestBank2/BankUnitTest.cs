@@ -23,7 +23,7 @@ namespace TestBank2
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]                                     
-        public void CreateBankAccountWithInvalidOverdraftLimit()
+        public void CreateBankAccountWithInvalidOverdraftLimits()
         {
             BankAccount acc = new BankAccount("903509", "12345", -5000);             // -5000 overdraft limit
         }
