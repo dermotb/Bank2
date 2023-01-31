@@ -13,7 +13,7 @@ namespace TestBank2
     public class BankUnitTest
     {
         [TestMethod]                                            
-        public void TestDeposit1()
+        public void TestStraighyDeposit()
         {
             BankAccount acc = new BankAccount("903509", "12345");                    // 0 overdraft limit
             acc.Deposit(100);
